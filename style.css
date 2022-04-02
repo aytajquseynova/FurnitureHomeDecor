@@ -98,3 +98,44 @@ nav {
 .demo-number:hover {
     cursor: pointer;
 }
+
+/*homepages section ends*/
+/*multiplehomepage section starts*/
+#MultipleHomepage {
+    padding-left: 100px;
+    padding-right:100px;
+    text-align: center;
+}
+.col-6 {
+    display: inline-block;
+}
+
+.left {
+    width: 41.6%;
+    vertical-align: top ;
+    text-align: left;
+
+}
+
+.left h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #343434;
+    font-size: 22px;
+}
+
+.left p {
+    line-height: 24px;
+    color: #8d8d8d;
+    font-size: 14px;
+}
+
+.right {
+    width: 58%;
+}
+#MultipleHomepage img {
+    height: 391px;
+    object-fit: Cover;
+}
+/*#MultipleHomepage section ends*/
+/*#MultipleHomepage sectionundaki problemler qalib*/
