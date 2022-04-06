@@ -55,6 +55,73 @@ nav {
 }
 
 /*navbar menu ends*/
+/*content section starts*/
+.mainpage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.content-inner-btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background: #f3ff39;
+    border-color: #f3ff39;
+    border-radius: 25px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 900;
+    height: 50px;
+    min-width: 180px;
+    line-height: 50px;
+    padding: 0px 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.content-inner-btn:hover {
+    cursor: pointer;
+    background: #535353;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.mainpage-img {
+    height: 500px;
+    object-fit: Cover;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.decription-slide-title {
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.title_slideshow {
+    font-size: 34px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.text_slideshow {
+    font-size: 14px;
+    margin: 4px 0px 0px 0px;
+    font-weight: 400;
+}
+
+.content-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*content section ends*/
 /*homepages section starts*/
 .row {
     width: 100%;
