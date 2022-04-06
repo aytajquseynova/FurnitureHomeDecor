@@ -145,7 +145,7 @@ img:hover {
     color: #343434;
 }
 
-.homepage-img img {
+.col-4 img {
     object-fit: cover;
     height: 300px;
 }
@@ -210,3 +210,22 @@ img:hover {
 
 /*#MultipleHomepage section ends*/
 /*#MultipleHomepage sectionundaki problemler qalib*/
+/*details-builder section starts*/
+#details-builder p{
+    font-size:14px;
+}
+.product-details-builder{
+    padding: 20px 0px 60px 0px;
+}
+.details-builder-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #343434;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+.details-builder-text{
+    margin: 0 0 10px;
+}
+/*details-builder section ends- bu sectionda olcu ve p`lerin rengin deyismek qaldi*/
