@@ -13,6 +13,9 @@ body {
 .menu {
     padding: 15px;
     background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .menu-brand-logo:hover {
