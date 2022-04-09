@@ -214,14 +214,16 @@ img:hover {
 /*#MultipleHomepage section ends*/
 /*#MultipleHomepage sectionundaki problemler qalib*/
 /*details-builder section starts*/
-#details-builder p{
-    font-size:14px;
+#details-builder p {
+    font-size: 14px;
     color: #958d8d;
 }
-.product-details-builder{
+
+.product-details-builder {
     padding: 20px 0px 60px 0px;
 }
-.details-builder-title{
+
+.details-builder-title {
     font-size: 30px;
     font-weight: 600;
     color: #343434;
@@ -229,21 +231,53 @@ img:hover {
     margin-bottom: 10px;
     line-height: 1.1;
 }
-.details-builder-text{
+
+.details-builder-text {
     margin: 0 0 10px;
 }
+
 /*details-builder section ends- bu sectionda olcu ve p`lerin rengin deyismek qaldi*/
-/*footer starts*/
-footer{
-    width:100%;
-    background: #da4b38;
-    padding:30px 0px;
+/*Multilingual Support section starts*/
+.multilangual-support-inner p,
+h2 {
+    text-align: Center;
 }
-.text-footer{
+
+.multiplangual-support-inner h2 {
+    font-weight: 600;
+    color: #343434;
+    font-size: 22px;
+}
+
+.multilangual-support-inner p {
+    font-size: 14px;
+}
+
+.flags {
+    display: Flex;
+    justify-content: space-between;
+}
+
+.flag {
+    padding: 0px 60px 0px 30px;
+    list-style-type: none;
+}
+
+/*Multilingual Support section ends*/
+/*Multilingual Support section tezden baxarsan flex movzusu gelende+ olculere fikir ver*/
+/*footer starts*/
+footer {
+    width: 100%;
+    background: #da4b38;
+    padding: 30px 0px;
+}
+
+.text-footer {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
-    text-align:Center;
+    text-align: Center;
 }
+
 /*footer ends*/
