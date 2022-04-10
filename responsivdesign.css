@@ -1,0 +1,28 @@
+@media (min-width:768px) and (max-width:991px) {
+
+    .navbar-menu-items a {
+        padding: 22px;
+    }
+
+
+    .decription-slide-title {
+        font-size: 26px;
+    }
+
+    .title_slideshow {
+        font-size: 20px;
+    }
+
+    .text_slideshow {
+        font-size: 12px;
+        margin: 5px 0px 0px 0px;
+    }
+    .homepage-gallery , .left, .right{
+        width:100%;
+        
+    }
+    .detail-builder-items{
+        width:100%;
+    }
+    
+}

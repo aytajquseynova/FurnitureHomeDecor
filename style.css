@@ -63,8 +63,17 @@ nav {
     position: relative;
     text-align: center;
     color: white;
+    height:100vh;
 }
-
+.content-inner-text{
+    top:50%;
+    left:50%;
+    transform:(-50%,-50%);
+    -webkit-transform:(-50%,-50%);
+    -moz-transform:(-50%,-50%);
+    -ms-transform:(-50%,-50%);
+    -o-transform:(-50%,-50%);
+}
 .content-inner-btn {
     margin-top: 20px;
     display: inline-block;
@@ -208,6 +217,7 @@ img:hover {
     height: 390px;
     object-fit: Cover;
     vertical-align: middle;
+    width:100%;
 
 }
 
