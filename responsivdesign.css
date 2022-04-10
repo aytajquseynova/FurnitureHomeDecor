@@ -17,12 +17,16 @@
         font-size: 12px;
         margin: 5px 0px 0px 0px;
     }
-    .homepage-gallery , .left, .right{
-        width:100%;
-        
+
+    .homepage-gallery,
+    .left,
+    .right {
+        width: 100%;
+
     }
-    .detail-builder-items{
-        width:100%;
+
+    .detail-builder-items {
+        width: 100%;
     }
-    
+
 }
