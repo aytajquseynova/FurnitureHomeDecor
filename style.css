@@ -3,7 +3,12 @@
     font-weight: bold;
 }
 
+html {
+    font-size: 62.5%
+}
+
 body {
+    font-size: 1.4rem;
     width: 100%;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -11,7 +16,7 @@ body {
 
 /*navbar menu starts*/
 .menu {
-    padding: 15px;
+    padding: 1.5rem;
     background-color: white;
     position: fixed;
     width: 100%;
@@ -25,14 +30,14 @@ body {
 .navbar-menu-items a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
-    padding: 25px;
+    padding: 2.5rem;
 }
 
 nav {
     display: inline-block;
-    width: calc(100% - 174px);
+    width: calc(100% - 1.7rem);
     text-align: center;
 }
 
@@ -77,21 +82,25 @@ nav {
 }
 
 .content-inner-btn {
-    margin-top: 20px;
+    margin-top: 2rem;
     display: inline-block;
     text-decoration: none;
     background: #f3ff39;
     border-color: #f3ff39;
-    border-radius: 25px;
+    border-radius: 2.5rem;
     color: #000;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 900;
-    height: 50px;
-    min-width: 180px;
-    line-height: 50px;
-    padding: 0px 10px;
-    letter-spacing: 3px;
+    height: 5rem;
+    min-width: 18rem;
+    line-height: 5rem;
+    padding: 0rem 2rem;
+    letter-spacing: 0.3rem;
     text-transform: uppercase;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
 }
 
 .content-inner-btn:hover {
@@ -99,10 +108,14 @@ nav {
     background: #535353;
     color: white;
     transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 
 .mainpage-img {
-    height: 500px;
+    height: 50rem;
     object-fit: Cover;
 }
 
@@ -112,19 +125,19 @@ img:hover {
 
 .decription-slide-title {
     margin: 0px;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 600;
 }
 
 .title_slideshow {
-    font-size: 34px;
-    margin: 0px;
+    font-size: 3.4rem;
+    margin: 0rem;
     font-weight: 600;
 }
 
 .text_slideshow {
-    font-size: 14px;
-    margin: 4px 0px 0px 0px;
+    font-size: 1.4rem;
+    margin: 0, 4rem 0rem 0rem 0rem;
     font-weight: 400;
 }
 
@@ -133,6 +146,10 @@ img:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 /*content section ends*/
@@ -154,14 +171,14 @@ img:hover {
 }
 
 .homepages-title {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     color: #343434;
 }
 
 .col-4 img {
     object-fit: cover;
-    height: 300px;
+    height: 30rem;
 }
 
 .homepage-img img:hover {
@@ -170,7 +187,7 @@ img:hover {
 
 .demo-number {
     color: #428bca;
-    font-size: 18x;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.1;
 }
@@ -182,8 +199,8 @@ img:hover {
 /*homepages section ends*/
 /*multiplehomepage section starts*/
 #MultipleHomepage {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10rem;
+    padding-right: 10rem;
     text-align: center;
 }
 
@@ -195,20 +212,20 @@ img:hover {
     width: 41.6%;
     vertical-align: top;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 
 .left h2 {
     font-weight: 600;
     color: #343434;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .left p {
-    line-height: 24px;
+    line-height: 2.4rem;
     color: #8d8d8d;
-    font-size: 12px;
-    padding: 20px 0px;
+    font-size: 1.2rem;
+    padding: 2rem 0rem;
 }
 
 .right {
@@ -216,7 +233,7 @@ img:hover {
 }
 
 .col-6.right img {
-    height: 390px;
+    height: 39rem;
     object-fit: Cover;
     vertical-align: middle;
     width: 100%;
@@ -227,25 +244,25 @@ img:hover {
 /*#MultipleHomepage sectionundaki problemler qalib*/
 /*details-builder section starts*/
 #details-builder p {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #958d8d;
 }
 
 .product-details-builder {
-    padding: 20px 0px 60px 0px;
+    padding: 2rem 0rem 6rem 0rem;
 }
 
 .details-builder-title {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     color: #343434;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     line-height: 1.1;
 }
 
 .details-builder-text {
-    margin: 0 0 10px;
+    margin: 0 0 1rem;
 }
 
 /*details-builder section ends- bu sectionda olcu ve p`lerin rengin deyismek qaldi*/
@@ -258,11 +275,11 @@ h2 {
 .multiplangual-support-inner h2 {
     font-weight: 600;
     color: #343434;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 
 .multilangual-support-inner p {
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .flags {
@@ -271,7 +288,7 @@ h2 {
 }
 
 .flag {
-    padding: 0px 60px 0px 30px;
+    padding: 0rem 6rem 0rem 3rem;
     list-style-type: none;
 }
 
@@ -281,14 +298,14 @@ h2 {
 footer {
     width: 100%;
     background: #da4b38;
-    padding: 30px 0px;
+    padding: 3rem 0rem;
 }
 
 .text-footer {
     color: #FFF;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 4rem;
     text-align: Center;
 }
 
